@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .wufoo {
+        font-family: "Lucida Grande","Lucida Sans Unicode", Tahoma, sans-serif;
+    }
+</style>
+<body>
+    <form method="get" action="simpleform.html" class="wufoo">
+        <h1>Order Form</h1>
+        <p>What would you like to buy? </p>
+        <select>
+            <option value=" ">A</option> 
+            <option>B(+  0.5$)</option>
+            <option>C(+  0.5$)</option>
+        </select>
+        <p>How many would you like to order?</p>
+            <input type="radio" name="quantity" value="1 - $10"/> 1 - $10 <br>
+            <input type="radio" name="quantity" value="2 - $20"/> 2 - $20 <br>
+            <input type="radio" name="quantity" value="3 - $25"/> 3 - $25 
+        <p> <label for="name">Name </label> <span style="color: red">*</span> </p>
+            <input type="text" name="firstName" placeholder="FirstName" size="15" id="name"/>
+            <input type="text" name="lastName" placeholder="LastName" size="15"/>
+        <p><label for="email"> Email </label> </p>
+            <input type="text" name="email" size="30" id="email"/> </label>
+        <p><label for="phoneNumber">Phone Number </label> </p>
+            <input type="text" name="4SoDau" size="4" id="phoneNumber"/> - 
+            <input type="text" name="3SoGiua" size="4"> - 
+            <input type="text" name="3SoCuoi" size ="4">
+        <p><input type="button" name="btSubmit" value="Submit"/></p>
+    </form>
+    
+    
+</body>
+</html>
