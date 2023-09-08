@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="FormBt2.css" />
+  </head>
+
+  <body>
+    <table>
+      <form
+        method="post"
+        action="http://demo.codegym.vn/6/registration_form/register.php"
+      >
+       <tbody class="hobby">
+        <tr>
+          <th colspan="2">SỞ THÍCH CỦA BẠN</th>
+        </tr>
+        <tr>
+          <td>Họ và tên</td>
+          <td><input type="text" name="yourname" /></td>
+        </tr>
+
+        <tr>
+          <td>Email</td>
+          <td><input type="email" name="email" /></td>
+        </tr>
+        <tr>
+            <td>Sở thích</td>
+            <td>
+                <input type="checkbox" name="hobby1" value="Thể thao" />Thể thao
+                <input type="checkbox" name="hobby2" value="Âm nhạc" />Âm nhạc
+                <input type="checkbox" name="hobby3" value="Đọc sách" />Đọc sách
+            </td>
+            
+
+        <tr>
+            <td></td>
+            <td>
+              <input type="checkbox" name="hobby4" value="Lướt web" />Lướt web
+              <input type="checkbox" name="hobby5" value="Chơi game" />Chơi game
+              <input type="checkbox" name="hobby6" value="Điện ảnh" />Điện ảnh
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <input type="checkbox" name="hobby7" value="Du lịch" />Du lịch
+            </td>
+          </tr>
+          
+        <tr>
+          <td></td>
+          <td>
+            <input type="submit" value="Gửi thông tin" />
+            <input type="reset" value="Nhập lại" />
+          </td>
+        </tr>
+        </tbody>
+      </form>
+    </table>
+  </body>
+</html>

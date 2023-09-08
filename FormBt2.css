@@ -1,0 +1,26 @@
+body {
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    color: white;
+    font-size: 15;
+    text-align: center;
+    background-color: orangered;
+    
+
+}
+
+tr {
+    color: blue;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12;
+}
+.hobby{
+    color:red;
+}
