@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    th {
+        color: white;
+        background-color: orangered;
+        height: 20px;
+    }
+
+    .right {
+        text-align: right;
+        width: 25%;
+        color: blue;
+    }
+
+    body {
+        color: orangered;
+    }
+
+
+    
+  </style>
+  <body>
+    <form method="post" action="http://demo.codegym.vn/6/registration_form/register.php">
+    <table style="margin: auto; height: 200px; width: 500px; border:10px solid #00FFFF; border-collapse:collapse;">
+      <tr>
+        <th colspan="2">SỞ THÍCH CỦA BẠN</th>
+      </tr>
+      <tr>
+        <td class="right">Họ và tên</td>
+        <td>
+          <input type="text" name="yourname" size="40" />
+        </td>
+      </tr>
+      <tr>
+        <td class="right">Email</td>
+        <td>
+            <input type="email" name="email" size="25"/>
+        </td>
+      <tr>
+        <td class="right" style="vertical-align: top;">Sở thích</td>
+        <td>
+            <input type="checkbox" name="hobby1" value="Thể thao"/>Thể thao &nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" name="hobby2" value="Âm nhạc"/>Âm nhạc &nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" name="hobby3" value="Đọc sách"/>Đọc sách 
+            <br>
+            <input type="checkbox" name="hobby4" vaule="Lướt web"/>Lướt web &nbsp;&nbsp;
+            <input type="checkbox" name="hobby5" value="Chơi game"/>Chơi game &nbsp;
+            <input type="checkbox" name="hobby6" value="Điện ảnh"/>Điện ảnh
+            <br>
+            <input type="checkbox" name="hobby7" value="Du lịch">Du lịch
+            <br>
+            <input type="submit" value="Gừi thông tin"/>
+            <input type="reset" value="Nhập lại"/>
+        </td>
+      </tr>
+    </table>
+    </form>
+  </body>
+</html>

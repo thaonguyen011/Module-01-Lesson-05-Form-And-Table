@@ -20,8 +20,7 @@
   </head>
   <body>
     <h2>Market Research Survey</h2>
-    <span style="line-height:normal">Please take a few moments to complete this satisfaction survey.</span>
-    <p class="border"></p>
+    <span style="line-height:normal; border-bottom: 1px solid black;">Please take a few moments to complete this satisfaction survey.</span>
     <p class="bold">What is your age range?</p>
     <select style="width: 200px; height:25px; font-size: 16px;">
       <option value="18-24">18-24</option>
@@ -42,7 +41,12 @@
     <input type="radio" name="gender" value="male" />   Male<br />
     <input type="radio" name="gender" value="female" /> Female<br />
     <input type="radio" name="gender" value="nonbiary" />   Nonbiary<br />
-    <input type="radio" name="gender" value="other" />  Other<br />
+    <input type="radio" name="gender" value="other" id="character" onclick="fc()" />  Other<br />
+    <script>
+       function fc() {
+        document.write("Maximum of 250 characters.    Currently Used: 0 characters.");
+       }
+    </script>
     <input type="text" style="margin-left: 20px" /><br />
     <br />
     <p class="bold">Which of the following products have your purchased in the last 2 months.

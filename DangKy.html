@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            background-color: rgb(248, 248, 126);
+            margin: auto;
+            width: 500px;
+            color: blue;
+        }
+        th {
+            text-align: left;
+            background: #00FFFF;
+        }
+
+        tr td:nth-child(1) {
+            width:auto;
+            padding-left: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form method="post" action="http://demo.codegym.vn/6/registration_form/register.php">
+        <table>
+            <tr>
+            <th colspan="2">ĐĂNG KÍ HỌC VIÊN</th>
+            </tr>
+            <tr>
+                <td>Họ và tên</td>
+                <td>
+                    <input type="text" name="name" size="40"/>
+                </td>
+            </tr>
+            <tr>
+                <td>Ngày sinh</td>
+                <td>
+                    <input type="text" name="birthday" size="25"/>
+                </td>
+            <tr>
+                <td>Giới tính</td>
+                <td>
+                    <input type="radio" name="gender" value="nam"/>Nam &nbsp;
+                    <input type="radio" name="gender" value="nữ"/>Nữ &nbsp;
+                </td>
+            </tr>
+            <tr>
+                <td>Địa chỉ</td>
+                <td>
+                    <input type="text" name="address" style="height: 50px; width: 50%;"/>
+                </td>
+            </tr>
+            <tr>
+                <td>Lớp</td>
+                <td>
+                    <select>
+                        <option>--Chọn lớp--</option>
+                        <option value="Y2017A">Y2017A</option>
+                        <option value="Y2017B">Y2017B</option>
+                        <option value="Y2017C">Y2017C</option>
+                        <option value="Y2017D">Y2017B</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>
+                    <input type="mail" name="email"/>
+                <td>
+            </td>
+            <tr>
+                <td style="vertical-align: top;">Điện thoại</td>
+                <td>
+                    <input type="text" name="phoneNumber"/><br>
+                    <input type="submit" value="Đăng ký"/>
+                    <input type="reset" value="Nhập lại"/>
+        </table>    
+    </form>
+</body>
+</html>
